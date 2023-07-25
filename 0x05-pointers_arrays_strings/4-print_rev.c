@@ -4,21 +4,24 @@
     * followed by a new line.
      *@s: String
       *
-       * Return - Prints string in reverse
+       * Return - 0
  */
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int longi = 0;
+	int o;
 
-	while (s[i] != '\0')
+	while (*s != '\0')
 	{
-		i++;
+		longi++;
+		s++;
 	}
-	while (i > 0)
+	s--;
+	for (o = longi; o > 0; o--)
 	{
-		_putchar(s[i]);
-		i--;
+		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
