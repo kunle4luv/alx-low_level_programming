@@ -1,16 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
-int main(void)
+   * puts2 - a function that prints every other character of a string,
+   * starting with the first character, followed by a new line.
+    * @str: string
+     * Return: Nothing
+      */
+
+void puts2(char *str)
 {
-	printf("Size of a char: %lu byte(s) \n", sizeof(char));
-	printf("Size of a int: %lu byte(s) \n", sizeof(int));
-	printf("Size of a long int: %lu byte(s) \n", sizeof(long int));
-	printf("Size of a long long int: %lu byte(s) \n", sizeof(long long int));
-	printf("Size of a float: %lu byte(s) \n", sizeof(float));
-	return (0);
+	int i = 0;
+	int count = 0;
+
+	while (str[i] != '\0')
+		i++;
+	while (count < i)
+	{
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
+	}
+	_putchar('\n');
 }
