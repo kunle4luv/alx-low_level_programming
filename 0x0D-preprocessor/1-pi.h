@@ -4,7 +4,7 @@
 /**
  * file: 1-pi.h
  * Desc: A file that defines a macro named pi
- * 	as an abbreviation for the token 3.14159265359.
+ * as an abbreviation for the token 3.14159265359.
  *
  */
 

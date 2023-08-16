@@ -3,8 +3,8 @@
 
 /**
  * File: 3-function_like_macro.h
- * Desc: A function-like macro ABC(x) 
- * 	that computes the absolute value of a number x.
+ * Desc - A function_like_macro ABC(x).
+ * that computes the absolute value of a number x.
  *
  */
 
