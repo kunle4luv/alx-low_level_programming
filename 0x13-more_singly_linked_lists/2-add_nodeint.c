@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "main.h"
+#include "lists.h"
 
 /**
   * add_nodeint - A dunction that add node
