@@ -27,7 +27,7 @@ int str_length(char *s)
  */
 int is_palindrome(char *s)
 {
-	int length = string_length(s);
+	int length = str_length(s);
 	int i = 0, j = length - 1;
 
 	while (i < j)
