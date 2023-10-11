@@ -7,7 +7,7 @@
  * @size: the size of the memory to print
  * @c: The specfic char to initialies the array with.
  *
- * Return: 0 if the function fail(Null) or otherwise - a pointer 
+ * Return: 0 if the function fail(NULL) or otherwise - a pointer 
  * to the array.
  */
 char *create_array(unsigned int size, char c)
@@ -15,7 +15,7 @@ char *create_array(unsigned int size, char c)
 	char *array = malloc(size);
 
 	if (size == 0 || array == 0)
-		return (Null);
+		return (NULL);
 
 	while (size--)
 		array[size] = c;
