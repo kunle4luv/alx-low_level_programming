@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /* main - A program that multiplies two numbers
  * followed by a new line.
@@ -24,5 +25,5 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", result);
 	
-	returm(0);
+	return(0);
 }
