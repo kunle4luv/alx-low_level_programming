@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* main - A program that multiplies two numbers
+/**
+ * main - A program that multiplies two numbers
  * followed by a new line.
  * @argc: The number of arguments supplied to the program
  * @argv: an array of pointer to d arguments
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 	if (argc < 3)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	numX = atoi(argv[1]);
@@ -24,6 +25,6 @@ int main(int argc, char *argv[])
 	result = numX * numY;
 
 	printf("%d\n", result);
-	
-	return(0);
+
+	return (0);
 }
