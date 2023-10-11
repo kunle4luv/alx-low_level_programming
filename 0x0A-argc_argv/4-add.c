@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Main - A program that adds positive number
+ * main - A program that adds positive number
  * followed by a new line.
  * @argc: The number of arguments supplied to the program
  * @argv: an array of pointer to d arguments
