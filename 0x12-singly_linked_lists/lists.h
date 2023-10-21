@@ -8,13 +8,13 @@
 
 /**
  * struct list_s - The structure for a linked list
- * @s: The malloc'ed string
+ * @str: The malloc'ed string
  * @len: The lenght of the string
  * @next: The points to the next node
  */
 typedef struct list_s
 {
-	char *s;
+	char *str;
 	struct list_s *next;
 	unsigned int len;
 }list_t;
