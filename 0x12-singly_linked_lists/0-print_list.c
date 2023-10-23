@@ -13,7 +13,7 @@ size_t print_list(const list_t *h)
 	/*Implementation of the print_list function*/
 	size_t node_counter = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 		if (h->str == NULL)
 		
@@ -26,5 +26,6 @@ size_t print_list(const list_t *h)
 		node_counter++;
 		h = h->next;
 	}
+
 	return (node_counter);
 }
