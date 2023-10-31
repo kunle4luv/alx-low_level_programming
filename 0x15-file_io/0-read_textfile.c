@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * read_textfile - A function that read atext file 
+ * read_textfile - A function that read atext file
  * and prints it to stdout
  * @filename: The name of the file to read
  * @letters: The number of letter to read and print
@@ -10,7 +10,7 @@
  * Return: The Number of letter read and printed,
  * and o on failure.
  */
-ssize_t read_textfile(const char *filename, size_t letter)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int o, bytesRead, bytesWrite;
 	char *buffer;
